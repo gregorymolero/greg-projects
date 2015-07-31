@@ -1,0 +1,18 @@
+OUTILS
+------
+
+1 - Installer XAMPP en C:/xampp
+2 - Komodo
+3 - Installer GitHub for windows (https://windows.github.com/)
+
+Se logger dans GitHub
+Icone + en haut a gauche
+Cloner le repository dans c:/xampp/htdocs/
+
+----------------------------------------------------------------------
+
+Creer une page listant toutes les données que tu veux sur le Black Album
+- Jaquette de l'album
+- Liste de pistes + durée
+- Paragraphe pour la review album
+- Liens videos et fiche discogs (http://www.discogs.com/Metallica-Metallica/master/6651)
