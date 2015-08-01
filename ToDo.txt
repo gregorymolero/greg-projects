@@ -1,17 +1,30 @@
-OUTILS
+﻿OUTILS
 ------
 
 1 - Installer XAMPP en C:/xampp
 2 - Komodo
 3 - Installer GitHub for windows (https://windows.github.com/)
+4 - Installer Firefox et l'extension Firebug
 
 Se logger dans GitHub
 Icone + en haut a gauche
 Cloner le repository dans c:/xampp/htdocs/
 
+
+----------------------------------------------------------------------
+                       DEMARRER LE SERVEUR 
+----------------------------------------------------------------------
+Lancer XAMPP control Panel
+Apache -> Start
+Le nom "Apache" devient vert, ca marche
+Lancer firefox et aller a l'adresse "localhost/greg-projects"
+
+
+----------------------------------------------------------------------
+                           A FAIRE 
 ----------------------------------------------------------------------
 
-Creer une page listant toutes les données que tu veux sur le Black Album
+Creer une page listant toutes les données que tu veux sur le Black Album (htdocs/greg-projects/blackalbum.html)
 - Jaquette de l'album
 - Liste de pistes + durée
 - Paragraphe pour la review album
