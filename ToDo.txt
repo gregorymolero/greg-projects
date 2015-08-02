@@ -24,8 +24,12 @@ Lancer firefox et aller a l'adresse "localhost/greg-projects"
                            A FAIRE 
 ----------------------------------------------------------------------
 
-Creer une page listant toutes les données que tu veux sur le Black Album (htdocs/greg-projects/blackalbum.html)
-- Jaquette de l'album
+Creer une page listant toutes les données que tu veux sur le Black Album (htdocs/greg-projects/black_album.html)
+- Jaquette de l'album => OK
 - Liste de pistes + durée
-- Paragraphe pour la review album
-- Liens videos et fiche discogs (http://www.discogs.com/Metallica-Metallica/master/6651)
+- Paragraphe pour la review album => Présentation du groupe, c'est pareil : OK
+- Liens videos et fiche discogs (http://www.discogs.com/Metallica-Metallica/master/6651) => Liens WIkipedia : OK
+
+Creer une page sur le meme modèle, dans un nouveau fichier, sur un album d'un autre groupe.
+
+Renommer la page "index.html" en "index_old.html", et creer une nouvelle page d'index d'accueil : Titre, un petit texte d'intro, et deux liens pointant vers les deux fiches "album" que tu as déja créées. 
