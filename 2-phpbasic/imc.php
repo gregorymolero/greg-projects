@@ -15,20 +15,19 @@ if (isset($_POST['valid'])) {
     $prénom=$_POST['prénom'];
     $taille=$_POST['taille'];
     $poids=$_POST['poids'];
-}
 $imc=$poids /($taille*$taille);
-echo 'Bonjour '.$prénom.'votre IMC est de : '.$imc.'.<br>';
+echo 'Bonjour '.$prénom.' votre IMC est de : '.$imc.'.<br>';
 if ($imc<16.5){
-    $verdict='Vous etes en dénutrition.';
+    $verdict='Vous êtes en dénutrition.';
 }
 elseif ($imc<18.5) {
-    $verdict='Vous etes maigre.';
+    $verdict='Vous êtes maigre.';
 }
 elseif ($imc<25){
-    $verdict='Vous etes de corpulence normale.';
+    $verdict='Vous êtes de corpulence normale.';
 }
 elseif ($imc<30){
-    $verdict='Vous etes en surpoids.';
+    $verdict='Vous êtes en surpoids.';
 }
 elseif ($imc<35){
     $verdict='Vous êtes modérement obèse.';
@@ -40,6 +39,7 @@ else {
     $verdict='Vous souferez d\'obésité morbide.';
 }
 echo $verdict;
+}
 ?>
     </body>
 </html>
