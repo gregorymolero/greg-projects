@@ -1,6 +1,6 @@
 <?php
-function connectMaBase(){
+function connectmabase(){
     $base = mysql_connect ('localhost', 'root', '');  
-    mysql_select_db ('MaBase', $base) ;
+    mysql_select_db ('mabase', $base) ;
 }
 ?>

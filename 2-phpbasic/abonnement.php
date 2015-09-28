@@ -37,8 +37,8 @@ include ('fonctions_1.php');
         mysql_query ($sql) or die('Erreur SQL!'.$sql.'<br/>'.mysql_error());
         mysql_close ();
         echo'vous etes sur que vous etes :'.$mrmrs.' '.$nom.' '.$prenom.'<br/>
-        domicilié au :'.$adresse.' '.$codepostal.' dans la ville de '.$ville.'<br/>
-        Vous avez choisi de vous abonner à '.$mag.'';
+        domicilié au :'.$adresse.' '.$codepostal.' dans la ville de '.$ville.'?<br/>
+        Vous avez choisi de vous abonner à '.$mag.'.';
     }
     ?>
     </body>
