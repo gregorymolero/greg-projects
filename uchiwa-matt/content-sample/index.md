@@ -1,6 +1,7 @@
 /*
 Title: Bienvenue
 Description: This description will go in the meta description tag
+Date: 2013/01/01
 */
 
 ## Welcome to Pico, Bitches !

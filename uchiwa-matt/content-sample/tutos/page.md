@@ -1,5 +1,7 @@
 /*
 Title: Tuto1
+Date: 2015/01/01
+Template: article
 */
 
 ## This is a Sub Page
