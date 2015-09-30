@@ -24,7 +24,7 @@ $config['site_title'] = 'Uchiwa';              // Site title
 /*
  * THEME
  */
-// $config['theme'] = 'default';                // Set the theme (defaults to "default")
+$config['theme'] = 'uchiwa';                // Set the theme (defaults to "default")
 // $config['twig_config'] = array(              // Twig settings
 //	'cache' => false,	                        // To enable Twig caching change this to CACHE_DIR
 //	'autoescape' => false,                      // Autoescape Twig vars

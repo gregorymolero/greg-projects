@@ -1,5 +1,5 @@
 /*
-Title: Sub Page Index
+Title: Tutoriels
 */
 
 ## This is a Sub Page Index
