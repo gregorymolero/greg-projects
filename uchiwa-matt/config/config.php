@@ -19,7 +19,7 @@
  * BASIC
  */
 $config['site_title'] = 'Uchiwa';              // Site title
-$config['base_url'] = 'http://greg.matthieu.carquigny.vm/uchiwa-matt';                    // Override base URL (e.g. http://example.com)
+// $config['base_url'] = '';                    // Override base URL (e.g. http://example.com)
 
 /*
  * THEME
