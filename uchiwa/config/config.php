@@ -19,12 +19,12 @@
  * BASIC
  */
 $config['site_title'] = 'Uchiwa';              // Site title
-$config['base_url'] = 'http://greg.matthieu.carquigny.vm/uchiwa';                    // Override base URL (e.g. http://example.com)
+// $config['base_url'] = '';                    // Override base URL (e.g. http://example.com)
 
 /*
  * THEME
  */
-// $config['theme'] = 'default';                // Set the theme (defaults to "default")
+$config['theme'] = 'default';                // Set the theme (defaults to "default")
 // $config['twig_config'] = array(              // Twig settings
 //	'cache' => false,	                        // To enable Twig caching change this to CACHE_DIR
 //	'autoescape' => false,                      // Autoescape Twig vars
@@ -35,10 +35,10 @@ $config['base_url'] = 'http://greg.matthieu.carquigny.vm/uchiwa';               
  * CONTENT
  */
 // $config['date_format'] = '%D %T';             // Set the PHP date format as described here: http://php.net/manual/en/function.strftime.php
-// $config['pages_order_by'] = 'alpha';           // Order pages by "alpha" or "date"
+$config['pages_order_by'] = 'date';           // Order pages by "alpha" or "date"
 // $config['pages_order'] = 'asc';                // Order pages "asc" or "desc"
 // $config['excerpt_length'] = 50;                // The pages excerpt length (in words)
-// $config['content_dir'] = 'content-sample/';    // Content directory
+$config['content_dir'] = 'content-sample/';    // Content directory
 
 /*
  * TIMEZONE

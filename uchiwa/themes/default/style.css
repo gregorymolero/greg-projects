@@ -98,8 +98,10 @@ select:focus {
 /*---------------------------------------------*/
 body {
 	font: 14px/1.8em 'Open Sans', Helvetica, Arial, Helvetica, sans-serif;
-	color: #444;
-	background: #fff;
+	color: #EFD807;
+	background-image:url('warframe.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -115,11 +117,11 @@ a, a:visited {
 
 a:hover, a:active {
 	color: #000;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	color: #000;
+	color: #850606;
 	line-height: 1.2em;
 	margin-bottom: 0.6em;
 }
@@ -206,24 +208,29 @@ blockquote {
 }
 
 #header {
-	background: #2EAE9B;
+	background-color:#000000;
+	background-image:url('sharingan.png');
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position:center;
 	padding: 60px 0;
 	margin-bottom: 80px;
-	color: #afe1da;
 }
-#header a { color: #afe1da; }
+#header a { color: #850606; }
 #header h1 a,
-#header a:hover { color: #fff; }
+#header a:hover { color: #00000; }
 #header h1 { 
 	font-weight: bold;
+	text-transform: uppercase;
 	margin: 0; 
-	float: left;
+	text-align:center;
 }
 #header .menu-icon {
 	display: none;
 	width: 35px;
 	height: 35px;
-	background: #afe1da url(menu-icon.png) center;
+	background:url(Mod.png) center;
+	background-size:contain;
 }
 #header nav {
 	float: right;
@@ -247,10 +254,9 @@ blockquote {
 	float: left;
 }
 #footer {
-	background: #707070;
 	padding: 60px 0;
 	margin-top: 80px;
-	color: #C0C0C0;
+	color:rgb(0,0,0);
 }
 #footer a { color: #ddd; }
 #footer a:hover { color: #fff; }
@@ -291,7 +297,7 @@ blockquote {
 		display:inline-block;
 	}
 	#header nav a { color: #000; }
-	#header nav a:hover { color: #afe1da; }
+	#header nav a:hover { color: #850606; }
 	#header nav ul, nav:active ul { 
 		display: none;
 		position: absolute;
